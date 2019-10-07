@@ -232,38 +232,34 @@
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
  <interface
-   name="hex_3_external_interface"
+   name="hex_3"
    internal="HEX_3.external_interface"
    type="conduit"
    dir="end" />
  <interface
-   name="hex_7_external_interface"
+   name="hex_7"
    internal="HEX_7.external_interface"
    type="conduit"
    dir="end" />
+ <interface name="lcd" internal="LCD.external_interface" type="conduit" dir="end" />
  <interface
-   name="lcd_external_interface"
-   internal="LCD.external_interface"
-   type="conduit"
-   dir="end" />
- <interface
-   name="leds_green_external_interface"
+   name="leds_green"
    internal="LEDS_GREEN.external_interface"
    type="conduit"
    dir="end" />
  <interface
-   name="leds_red_external_interface"
+   name="leds_red"
    internal="LEDS_RED.external_interface"
    type="conduit"
    dir="end" />
  <interface
-   name="pushbuttons_external_interface"
+   name="pushbuttons"
    internal="Pushbuttons.external_interface"
    type="conduit"
    dir="end" />
  <interface name="reset" internal="clk_0.clk_in_reset" type="reset" dir="end" />
  <interface
-   name="sw_sliders_external_interface"
+   name="sw_sliders"
    internal="SW_SLIDERS.external_interface"
    type="conduit"
    dir="end" />

@@ -89,7 +89,7 @@ Info: HEX_3: "nios_ii_base" instantiated altera_up_avalon_parallel_port "HEX_3"
 Info: HEX_7: Starting Generation of Parallel Port
 Info: HEX_7: "nios_ii_base" instantiated altera_up_avalon_parallel_port "HEX_7"
 Info: JTAG_UART: Starting RTL generation for module 'nios_ii_base_JTAG_UART'
-Info: JTAG_UART:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_ii_base_JTAG_UART --dir=C:/Users/arkad/AppData/Local/Temp/alt8176_950818418539929681.dir/0004_JTAG_UART_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/arkad/AppData/Local/Temp/alt8176_950818418539929681.dir/0004_JTAG_UART_gen//nios_ii_base_JTAG_UART_component_configuration.pl  --do_build_sim=0  ]
+Info: JTAG_UART:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_ii_base_JTAG_UART --dir=C:/Users/arkad/AppData/Local/Temp/alt8176_4973018214624259625.dir/0041_JTAG_UART_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/arkad/AppData/Local/Temp/alt8176_4973018214624259625.dir/0041_JTAG_UART_gen//nios_ii_base_JTAG_UART_component_configuration.pl  --do_build_sim=0  ]
 Info: JTAG_UART: Done RTL generation for module 'nios_ii_base_JTAG_UART'
 Info: JTAG_UART: "nios_ii_base" instantiated altera_avalon_jtag_uart "JTAG_UART"
 Info: LCD: Starting Generation of Character LCD
@@ -100,7 +100,7 @@ Info: LEDS_RED: Starting Generation of Parallel Port
 Info: LEDS_RED: "nios_ii_base" instantiated altera_up_avalon_parallel_port "LEDS_RED"
 Info: NIOS_II_Processor: "nios_ii_base" instantiated altera_nios2_gen2 "NIOS_II_Processor"
 Info: OnChip_Memory: Starting RTL generation for module 'nios_ii_base_OnChip_Memory'
-Info: OnChip_Memory:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_ii_base_OnChip_Memory --dir=C:/Users/arkad/AppData/Local/Temp/alt8176_950818418539929681.dir/0008_OnChip_Memory_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/arkad/AppData/Local/Temp/alt8176_950818418539929681.dir/0008_OnChip_Memory_gen//nios_ii_base_OnChip_Memory_component_configuration.pl  --do_build_sim=0  ]
+Info: OnChip_Memory:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_ii_base_OnChip_Memory --dir=C:/Users/arkad/AppData/Local/Temp/alt8176_4973018214624259625.dir/0045_OnChip_Memory_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/arkad/AppData/Local/Temp/alt8176_4973018214624259625.dir/0045_OnChip_Memory_gen//nios_ii_base_OnChip_Memory_component_configuration.pl  --do_build_sim=0  ]
 Info: OnChip_Memory: Done RTL generation for module 'nios_ii_base_OnChip_Memory'
 Info: OnChip_Memory: "nios_ii_base" instantiated altera_avalon_onchip_memory2 "OnChip_Memory"
 Info: Pushbuttons: Starting Generation of Parallel Port
@@ -108,7 +108,7 @@ Info: Pushbuttons: "nios_ii_base" instantiated altera_up_avalon_parallel_port "P
 Info: SW_SLIDERS: Starting Generation of Parallel Port
 Info: SW_SLIDERS: "nios_ii_base" instantiated altera_up_avalon_parallel_port "SW_SLIDERS"
 Info: timer_0: Starting RTL generation for module 'nios_ii_base_timer_0'
-Info: timer_0:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios_ii_base_timer_0 --dir=C:/Users/arkad/AppData/Local/Temp/alt8176_950818418539929681.dir/0011_timer_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/arkad/AppData/Local/Temp/alt8176_950818418539929681.dir/0011_timer_0_gen//nios_ii_base_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios_ii_base_timer_0 --dir=C:/Users/arkad/AppData/Local/Temp/alt8176_4973018214624259625.dir/0048_timer_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/arkad/AppData/Local/Temp/alt8176_4973018214624259625.dir/0048_timer_0_gen//nios_ii_base_timer_0_component_configuration.pl  --do_build_sim=0  ]
 Info: timer_0: Done RTL generation for module 'nios_ii_base_timer_0'
 Info: timer_0: "nios_ii_base" instantiated altera_avalon_timer "timer_0"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
@@ -127,19 +127,19 @@ Info: mm_interconnect_0: "nios_ii_base" instantiated altera_mm_interconnect "mm_
 Info: irq_mapper: "nios_ii_base" instantiated altera_irq_mapper "irq_mapper"
 Info: rst_controller: "nios_ii_base" instantiated altera_reset_controller "rst_controller"
 Info: cpu: Starting RTL generation for module 'nios_ii_base_NIOS_II_Processor_cpu'
-Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=nios_ii_base_NIOS_II_Processor_cpu --dir=C:/Users/arkad/AppData/Local/Temp/alt8176_950818418539929681.dir/0014_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/arkad/AppData/Local/Temp/alt8176_950818418539929681.dir/0014_cpu_gen//nios_ii_base_NIOS_II_Processor_cpu_processor_configuration.pl  --do_build_sim=0  ]
-Info: cpu: # 2019.10.07 22:01:29 (*) Starting Nios II generation
-Info: cpu: # 2019.10.07 22:01:29 (*)   Checking for plaintext license.
-Info: cpu: # 2019.10.07 22:01:31 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
-Info: cpu: # 2019.10.07 22:01:31 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
-Info: cpu: # 2019.10.07 22:01:31 (*)   LM_LICENSE_FILE environment variable is empty
-Info: cpu: # 2019.10.07 22:01:31 (*)   Plaintext license not found.
-Info: cpu: # 2019.10.07 22:01:31 (*)   No license required to generate encrypted Nios II/e.
-Info: cpu: # 2019.10.07 22:01:31 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2019.10.07 22:01:31 (*)   Creating all objects for CPU
-Info: cpu: # 2019.10.07 22:01:33 (*)   Generating RTL from CPU objects
-Info: cpu: # 2019.10.07 22:01:33 (*)   Creating plain-text RTL
-Info: cpu: # 2019.10.07 22:01:35 (*) Done Nios II generation
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=nios_ii_base_NIOS_II_Processor_cpu --dir=C:/Users/arkad/AppData/Local/Temp/alt8176_4973018214624259625.dir/0051_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/arkad/AppData/Local/Temp/alt8176_4973018214624259625.dir/0051_cpu_gen//nios_ii_base_NIOS_II_Processor_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2019.10.07 23:14:55 (*) Starting Nios II generation
+Info: cpu: # 2019.10.07 23:14:55 (*)   Checking for plaintext license.
+Info: cpu: # 2019.10.07 23:14:57 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2019.10.07 23:14:57 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2019.10.07 23:14:57 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2019.10.07 23:14:57 (*)   Plaintext license not found.
+Info: cpu: # 2019.10.07 23:14:57 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2019.10.07 23:14:57 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2019.10.07 23:14:57 (*)   Creating all objects for CPU
+Info: cpu: # 2019.10.07 23:14:59 (*)   Generating RTL from CPU objects
+Info: cpu: # 2019.10.07 23:14:59 (*)   Creating plain-text RTL
+Info: cpu: # 2019.10.07 23:15:01 (*) Done Nios II generation
 Info: cpu: Done RTL generation for module 'nios_ii_base_NIOS_II_Processor_cpu'
 Info: cpu: "NIOS_II_Processor" instantiated altera_nios2_gen2_unit "cpu"
 Info: NIOS_II_Processor_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "NIOS_II_Processor_data_master_translator"
@@ -176,4 +176,4 @@ Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error
 Info: error_adapter_0: "avalon_st_adapter_009" instantiated error_adapter "error_adapter_0"
 Info: nios_ii_base: Done "nios_ii_base" with 43 modules, 67 files
 Info: qsys-generate succeeded.
-Info: Stopping: Create HDL design files for synthesis
+Info: Finished: Create HDL design files for synthesis

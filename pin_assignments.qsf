@@ -1,0 +1,175 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+# Date created = 23:14:11  November 03, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Project_1_01_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE EP4CGX150DF31C7
+set_global_assignment -name TOP_LEVEL_ENTITY Project_1_01
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:14:11  NOVEMBER 03, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION 16.0.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name QSYS_FILE Project_1_01.qsys
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_V28 -to sw_sliders_export[0]
+set_location_assignment PIN_H25 -to sw_sliders_export[17]
+set_location_assignment PIN_C30 -to sw_sliders_export[16]
+set_location_assignment PIN_K25 -to sw_sliders_export[15]
+set_location_assignment PIN_J26 -to sw_sliders_export[14]
+set_location_assignment PIN_N25 -to sw_sliders_export[13]
+set_location_assignment PIN_M26 -to sw_sliders_export[12]
+set_location_assignment PIN_N26 -to sw_sliders_export[11]
+set_location_assignment PIN_R26 -to sw_sliders_export[10]
+set_location_assignment PIN_R29 -to sw_sliders_export[9]
+set_location_assignment PIN_P30 -to sw_sliders_export[8]
+set_location_assignment PIN_R30 -to sw_sliders_export[7]
+set_location_assignment PIN_T28 -to sw_sliders_export[6]
+set_location_assignment PIN_U21 -to sw_sliders_export[5]
+set_location_assignment PIN_AB30 -to sw_sliders_export[4]
+set_location_assignment PIN_C2 -to sw_sliders_export[3]
+set_location_assignment PIN_V21 -to sw_sliders_export[2]
+set_location_assignment PIN_U30 -to sw_sliders_export[1]
+set_location_assignment PIN_AE26 -to pushbuttons_export[3]
+set_location_assignment PIN_AF30 -to pushbuttons_export[2]
+set_location_assignment PIN_AE25 -to pushbuttons_export[1]
+set_location_assignment PIN_AA26 -to reset_reset_n
+set_location_assignment PIN_T23 -to leds_red_export[0]
+set_location_assignment PIN_T24 -to leds_red_export[1]
+set_location_assignment PIN_V27 -to leds_red_export[2]
+set_location_assignment PIN_W25 -to leds_red_export[3]
+set_location_assignment PIN_T21 -to leds_red_export[4]
+set_location_assignment PIN_T26 -to leds_red_export[5]
+set_location_assignment PIN_R25 -to leds_red_export[6]
+set_location_assignment PIN_T27 -to leds_red_export[7]
+set_location_assignment PIN_P25 -to leds_red_export[8]
+set_location_assignment PIN_R24 -to leds_red_export[9]
+set_location_assignment PIN_P21 -to leds_red_export[10]
+set_location_assignment PIN_N24 -to leds_red_export[11]
+set_location_assignment PIN_N21 -to leds_red_export[12]
+set_location_assignment PIN_M25 -to leds_red_export[13]
+set_location_assignment PIN_K24 -to leds_red_export[14]
+set_location_assignment PIN_L25 -to leds_red_export[15]
+set_location_assignment PIN_M21 -to leds_red_export[16]
+set_location_assignment PIN_M22 -to leds_red_export[17]
+set_location_assignment PIN_AA25 -to leds_green_export[0]
+set_location_assignment PIN_AB25 -to leds_green_export[1]
+set_location_assignment PIN_F27 -to leds_green_export[2]
+set_location_assignment PIN_F26 -to leds_green_export[3]
+set_location_assignment PIN_W26 -to leds_green_export[4]
+set_location_assignment PIN_Y22 -to leds_green_export[5]
+set_location_assignment PIN_Y25 -to leds_green_export[6]
+set_location_assignment PIN_AA22 -to leds_green_export[7]
+set_location_assignment PIN_J25 -to leds_green_export[8]
+set_location_assignment PIN_AJ3 -to lcd_RW
+set_location_assignment PIN_AG3 -to lcd_RS
+set_location_assignment PIN_AF27 -to lcd_ON
+set_location_assignment PIN_AF4 -to lcd_EN
+set_location_assignment PIN_AG4 -to lcd_DATA[0]
+set_location_assignment PIN_AF3 -to lcd_DATA[1]
+set_location_assignment PIN_AH3 -to lcd_DATA[2]
+set_location_assignment PIN_AE5 -to lcd_DATA[3]
+set_location_assignment PIN_AH2 -to lcd_DATA[4]
+set_location_assignment PIN_AE3 -to lcd_DATA[5]
+set_location_assignment PIN_AH4 -to lcd_DATA[6]
+set_location_assignment PIN_AE4 -to lcd_DATA[7]
+set_location_assignment PIN_F14 -to hex_3_HEX0[6]
+set_location_assignment PIN_D16 -to hex_3_HEX0[5]
+set_location_assignment PIN_F16 -to hex_3_HEX0[4]
+set_location_assignment PIN_F11 -to hex_3_HEX0[3]
+set_location_assignment PIN_G11 -to hex_3_HEX0[2]
+set_location_assignment PIN_E12 -to hex_3_HEX0[1]
+set_location_assignment PIN_E15 -to hex_3_HEX0[0]
+set_location_assignment PIN_G10 -to hex_3_HEX1[6]
+set_location_assignment PIN_J9 -to hex_3_HEX1[5]
+set_location_assignment PIN_G12 -to hex_3_HEX1[4]
+set_location_assignment PIN_F12 -to hex_3_HEX1[3]
+set_location_assignment PIN_G13 -to hex_3_HEX1[2]
+set_location_assignment PIN_B13 -to hex_3_HEX1[1]
+set_location_assignment PIN_G14 -to hex_3_HEX1[0]
+set_location_assignment PIN_F10 -to hex_3_HEX2[6]
+set_location_assignment PIN_F4 -to hex_3_HEX2[5]
+set_location_assignment PIN_F6 -to hex_3_HEX2[4]
+set_location_assignment PIN_AG30 -to hex_3_HEX2[3]
+set_location_assignment PIN_F7 -to hex_3_HEX2[2]
+set_location_assignment PIN_G7 -to hex_3_HEX2[1]
+set_location_assignment PIN_G8 -to hex_3_HEX2[0]
+set_location_assignment PIN_D4 -to hex_3_HEX3[6]
+set_location_assignment PIN_D5 -to hex_3_HEX3[5]
+set_location_assignment PIN_E3 -to hex_3_HEX3[4]
+set_location_assignment PIN_E4 -to hex_3_HEX3[3]
+set_location_assignment PIN_E6 -to hex_3_HEX3[2]
+set_location_assignment PIN_D7 -to hex_3_HEX3[1]
+set_location_assignment PIN_D10 -to hex_3_HEX3[0]
+set_location_assignment PIN_A14 -to hex_7_HEX4[0]
+set_location_assignment PIN_A13 -to hex_7_HEX4[1]
+set_location_assignment PIN_C7 -to hex_7_HEX4[2]
+set_location_assignment PIN_C6 -to hex_7_HEX4[3]
+set_location_assignment PIN_C5 -to hex_7_HEX4[4]
+set_location_assignment PIN_C4 -to hex_7_HEX4[5]
+set_location_assignment PIN_C3 -to hex_7_HEX4[6]
+set_location_assignment PIN_D3 -to hex_7_HEX5[0]
+set_location_assignment PIN_A10 -to hex_7_HEX5[1]
+set_location_assignment PIN_A9 -to hex_7_HEX5[2]
+set_location_assignment PIN_A7 -to hex_7_HEX5[3]
+set_location_assignment PIN_A6 -to hex_7_HEX5[4]
+set_location_assignment PIN_A11 -to hex_7_HEX5[5]
+set_location_assignment PIN_B6 -to hex_7_HEX5[6]
+set_location_assignment PIN_B9 -to hex_7_HEX6[0]
+set_location_assignment PIN_B10 -to hex_7_HEX6[1]
+set_location_assignment PIN_C8 -to hex_7_HEX6[2]
+set_location_assignment PIN_C9 -to hex_7_HEX6[3]
+set_location_assignment PIN_D8 -to hex_7_HEX6[4]
+set_location_assignment PIN_D9 -to hex_7_HEX6[5]
+set_location_assignment PIN_E9 -to hex_7_HEX6[6]
+set_location_assignment PIN_E10 -to hex_7_HEX7[0]
+set_location_assignment PIN_F8 -to hex_7_HEX7[1]
+set_location_assignment PIN_F9 -to hex_7_HEX7[2]
+set_location_assignment PIN_C10 -to hex_7_HEX7[3]
+set_location_assignment PIN_C11 -to hex_7_HEX7[4]
+set_location_assignment PIN_C12 -to hex_7_HEX7[5]
+set_location_assignment PIN_D12 -to hex_7_HEX7[6]
+set_location_assignment PIN_AJ16 -to clk_clk
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
