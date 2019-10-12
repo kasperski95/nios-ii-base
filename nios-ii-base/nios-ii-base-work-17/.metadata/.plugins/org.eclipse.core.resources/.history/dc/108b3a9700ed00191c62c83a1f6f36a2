@@ -28,8 +28,7 @@
 #define HEX_CHAR_4 SEG_F | SEG_G | SEG_B | SEG_C
 #define HEX_CHAR_5 SEG_A | SEG_F | SEG_G | SEG_C | SEG_D
 #define HEX_CHAR_6 SEG_A | SEG_F | SEG_G | SEG_C | SEG_D | SEG_E
-#define HEX_CHAR_E SEG_A | SEG_F | SEG_G | SEG_E | SEG_D
-#define HEX_CHAR_R SEG_E | SEG_G
+
 
 int validValues[6] = {1,2,4,8,16,32};
 
@@ -50,18 +49,13 @@ int main()
 	  val = IORD(SW_SLIDERS_BASE,0) & 0b00111111;
 
 	  switch(val) {
-	  	  case 0: IOWR(HEX_3_BASE, 0, HEX_NULL); break;
 		  case 1: IOWR(HEX_3_BASE, 0, HEX_CHAR_1); break;
 		  case 2: IOWR(HEX_3_BASE, 0, HEX_CHAR_2); break;
 		  case 4: IOWR(HEX_3_BASE, 0, HEX_CHAR_3); break;
 		  case 8: IOWR(HEX_3_BASE, 0, HEX_CHAR_4); break;
 		  case 16: IOWR(HEX_3_BASE, 0, HEX_CHAR_5); break;
 		  case 32: IOWR(HEX_3_BASE, 0, HEX_CHAR_6); break;
-		  default:
-			  IOWR(HEX_3_BASE, 2, HEX_CHAR_E);
-			  IOWR(HEX_3_BASE, 1, HEX_CHAR_R);
-			  IOWR(HEX_3_BASE, 0, HEX_CHAR_R);
-		  break;
+		  default: IOWR(HEX_3_BASE, 0, HEX_NULL); break;
 	  }
 
 	  if (isValid(val) == 1) {

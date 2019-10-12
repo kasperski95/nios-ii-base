@@ -50,7 +50,6 @@ int main()
 	  val = IORD(SW_SLIDERS_BASE,0) & 0b00111111;
 
 	  switch(val) {
-	  	  case 0: IOWR(HEX_3_BASE, 0, HEX_NULL); break;
 		  case 1: IOWR(HEX_3_BASE, 0, HEX_CHAR_1); break;
 		  case 2: IOWR(HEX_3_BASE, 0, HEX_CHAR_2); break;
 		  case 4: IOWR(HEX_3_BASE, 0, HEX_CHAR_3); break;

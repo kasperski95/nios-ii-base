@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=F\:\\Repos\\wieik-sw-lab\\nios-ii-base\\software\\lab-02-temperature
+newSoftwareExampleWizardPage.defaultLocation=F\:\\Repos\\wieik-sw-lab\\nios-ii-base\\software\\playground
 newSoftwareExampleWizardPage.sopcinfoFile=F\:\\Repos\\wieik-sw-lab\\nios-ii-base\\nios_ii_base.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=F\:\\Repos\\wieik-sw-lab\\nios-ii-base\\software\\lab-02-temperature_bsp
+newSoftwareExampleWizardPage2.newBspLocation=F\:\\Repos\\wieik-sw-lab\\nios-ii-base\\software\\playground_bsp
