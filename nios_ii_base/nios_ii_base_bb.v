@@ -19,7 +19,15 @@ module nios_ii_base (
 	leds_red_export,
 	pushbuttons_export,
 	reset_reset_n,
-	sw_sliders_export);	
+	sw_sliders_export,
+	vga_CLK,
+	vga_HS,
+	vga_VS,
+	vga_BLANK,
+	vga_SYNC,
+	vga_R,
+	vga_G,
+	vga_B);	
 
 	input		clk_clk;
 	output	[6:0]	hex_3_HEX0;
@@ -41,4 +49,12 @@ module nios_ii_base (
 	input	[3:0]	pushbuttons_export;
 	input		reset_reset_n;
 	input	[17:0]	sw_sliders_export;
+	output		vga_CLK;
+	output		vga_HS;
+	output		vga_VS;
+	output		vga_BLANK;
+	output		vga_SYNC;
+	output	[7:0]	vga_R;
+	output	[7:0]	vga_G;
+	output	[7:0]	vga_B;
 endmodule

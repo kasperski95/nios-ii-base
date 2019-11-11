@@ -18,6 +18,14 @@
 		.leds_red_export    (<connected-to-leds_red_export>),    //    leds_red.export
 		.pushbuttons_export (<connected-to-pushbuttons_export>), // pushbuttons.export
 		.reset_reset_n      (<connected-to-reset_reset_n>),      //       reset.reset_n
-		.sw_sliders_export  (<connected-to-sw_sliders_export>)   //  sw_sliders.export
+		.sw_sliders_export  (<connected-to-sw_sliders_export>),  //  sw_sliders.export
+		.vga_CLK            (<connected-to-vga_CLK>),            //         vga.CLK
+		.vga_HS             (<connected-to-vga_HS>),             //            .HS
+		.vga_VS             (<connected-to-vga_VS>),             //            .VS
+		.vga_BLANK          (<connected-to-vga_BLANK>),          //            .BLANK
+		.vga_SYNC           (<connected-to-vga_SYNC>),           //            .SYNC
+		.vga_R              (<connected-to-vga_R>),              //            .R
+		.vga_G              (<connected-to-vga_G>),              //            .G
+		.vga_B              (<connected-to-vga_B>)               //            .B
 	);
 
